@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import {Link} from 'react-router-dom';
+
 import {
     Container,
     HeaderItem
@@ -7,7 +9,7 @@ import {
 export default () => {
     return(
         <Container>
-            <HeaderItem>Logo</HeaderItem>
+            <HeaderItem><Link to="/">Logo</Link></HeaderItem>
             <HeaderItem>Github</HeaderItem>
         </Container>
     );

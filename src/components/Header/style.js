@@ -14,9 +14,19 @@ export const Container = styled.div`
 export const HeaderItem = styled.a`
     font-size: 24px;
     text-transform: uppercase;
+    cursor: pointer;
+    
+    > a {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
 
     :last-child{
         font-size: 16px;
         color: #E2E2E2;
+
+        &:hover {
+            color: #FFFFFF;
+        }
     }
 `;

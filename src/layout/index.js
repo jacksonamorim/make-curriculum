@@ -9,6 +9,7 @@ import {
 
 import Header from '../components/Header';
 import Home from '../pages/Home';
+import Curriculum from '../pages/Curriculum';
 
 export default () => {
     return (
@@ -21,6 +22,9 @@ export default () => {
                 <Switch>
                     <Route exact path="/">
                         <Home/>
+                    </Route>
+                    <Route exact path="/make-curriculum">
+                        <Curriculum/>
                     </Route>
                 </Switch>
             </PageBody>
